@@ -44,6 +44,7 @@ export function Contact() {
             href='https://instagram.com/alwanjauza'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label="Visit Alwan's Instagram Profile"
             className='p-3 bg-white rounded-full border border-[#323131]/10 hover:bg-[#323131] hover:text-[#F8F7F3] transition-colors'
           >
             <Instagram size={20} />
@@ -52,6 +53,7 @@ export function Contact() {
             href='https://linkedin.com/in/alwanjauza'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label="Visit Alwan's LinkedIn Profile"
             className='p-3 bg-white rounded-full border border-[#323131]/10 hover:bg-[#323131] hover:text-[#F8F7F3] transition-colors'
           >
             <Linkedin size={20} />
@@ -60,6 +62,7 @@ export function Contact() {
             href='https://github.com/alwanjauza'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label="Visit Alwan's GitHub Profile"
             className='p-3 bg-white rounded-full border border-[#323131]/10 hover:bg-[#323131] hover:text-[#F8F7F3] transition-colors'
           >
             <Github size={20} />
