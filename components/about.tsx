@@ -88,8 +88,8 @@ export function About() {
       desc: "Next.js, Django",
     },
     {
-      title: "UI/UX Engineering",
-      desc: "Design Systems, Interaction Design, Tailwind CSS",
+      title: "System Optimization",
+      desc: "Performance Tuning, Caching Strategies, Clean Code",
     },
     {
       title: "Backend & Database",
@@ -125,34 +125,37 @@ export function About() {
                 className='block text-xs font-semibold tracking-[0.2em] uppercase mb-6'
                 style={{ color: mutedText }}
               >
-                The Approach
+                The Philosophy
               </span>
               <h2 className='text-3xl md:text-4xl lg:text-5xl font-medium leading-tight mb-8'>
-                I bridge the gap between{" "}
-                <span className='font-serif italic'>design intent</span> and{" "}
-                <span className='font-serif italic'>engineering reality.</span>
+                I transform{" "}
+                <span className='font-serif italic'>complex requirements</span>{" "}
+                into{" "}
+                <span className='font-serif italic'>
+                  elegant technical solutions.
+                </span>
               </h2>
 
               <p
                 className='text-base md:text-lg leading-relaxed mb-6'
                 style={{ color: mutedText }}
               >
-                In modern product development, a disconnect often exists between
-                ambitious creative vision and technical feasibility. I operate
-                exactly at this intersection.
+                In a landscape filled with bloated software, I focus on what
+                matters: speed, reliability, and maintainability. I don't just
+                write code; I engineer systems that last.
               </p>
 
               <p
                 className='text-base md:text-lg leading-relaxed mb-12'
                 style={{ color: mutedText }}
               >
-                Leveraging deep expertise in both scalable backend architecture
-                and interactive frontend, I build enterprise-grade applications
-                that are not just robust and performant, but also intuitive and
-                visually precise.
+                My approach is rooted in the belief that good software should be
+                boringly stable in production, but excitingly simple to develop
+                and extend.
               </p>
             </div>
 
+            {/* Interactive Card Button */}
             <Link
               href='/about'
               className='group w-full md:w-fit flex items-center justify-between gap-8 px-8 py-5 border rounded-full transition-all duration-500 hover:bg-[#323131] hover:text-[#F8F7F3]'

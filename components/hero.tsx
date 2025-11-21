@@ -34,7 +34,6 @@ export function Hero() {
                 className='absolute top-10 -right-10 w-3/4 h-3/4 rounded-full blur-3xl -z-10 opacity-60'
                 style={{ backgroundColor: subtleBorder }}
               />
-
               <div
                 className='relative w-full h-full overflow-hidden rounded-[2rem] border shadow-2xl group'
                 style={{
@@ -79,9 +78,9 @@ export function Hero() {
               className='text-3xl sm:text-5xl lg:text-7xl font-medium leading-[1.1] tracking-tight mb-4 md:mb-8'
               style={{ color: mainText }}
             >
-              Crafting robust <br />
-              systems with <br />
-              <span className='italic font-serif'>aesthetic precision.</span>
+              Engineering <br />
+              performance with <br />
+              <span className='italic font-serif'>radical simplicity.</span>
             </motion.h1>
 
             <motion.p
@@ -90,9 +89,9 @@ export function Hero() {
               className='text-sm sm:text-base md:text-lg mb-6 md:mb-10 max-w-[44ch] leading-relaxed'
               style={{ color: mutedText }}
             >
-              Building scalable web applications and leading development teams
-              to deliver seamless digital experiences. Focused on performance,
-              clean code, and user-centric design.
+              Building scalable web applications where clean code drives
+              efficiency. I prioritize system stability, maintainability, and
+              removing unnecessary complexity.
             </motion.p>
 
             <motion.div

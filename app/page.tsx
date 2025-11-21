@@ -13,15 +13,15 @@ export default function Home() {
       <Hero />
 
       <Quote
-        text='Good design is as little design as possible. Less, but better.'
-        author='Dieter Rams'
+        text='Simplicity is the soul of efficiency.'
+        author='Austin Freeman'
       />
 
       <Projects />
 
       <Quote
-        text='The details are not the details. They make the design.'
-        author='Charles Eames'
+        text='Make it work, make it right, make it fast.'
+        author='Kent Beck'
       />
 
       <div className='relative'>

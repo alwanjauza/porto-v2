@@ -13,7 +13,7 @@ const experiences = [
     company: "PT. Maleo Teknologi Indonesia",
     role: "Full Stack Developer",
     description:
-      "Developing full-stack web applications from scratch using Next.js and Django. Collaborating with the team to deliver features and ensure the system runs smoothly. Responsible for integrating frontend with backend services and solving technical issues that arise during development.",
+      "Responsible for developing enterprise web applications from scratch. Collaborating closely with the team to translate complex business requirements into functional features using Next.js and Django. Actively involved in solving technical challenges and ensuring system stability.",
     stack: ["Next.js", "Django", "PostgreSQL", "Tailwind CSS"],
     images: [
       "/moments/fulltime/fulltime-1.png",
