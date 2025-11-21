@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     url: BASE_URL,
     title: "Alwan Jauza Rosyad | Full Stack Developer",
     description:
-      "Crafting robust systems with aesthetic precision. Explore the portfolio of a Full Stack Engineer based in Indonesia.",
+      "Building scalable web applications where clean code drives efficiency. Explore the portfolio of a Full Stack Engineer based in Indonesia.",
     siteName: "Alwan Jauza Portfolio",
     images: [
       {
@@ -65,7 +65,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Alwan Jauza Rosyad | Full Stack Developer",
-    description: "Crafting robust systems with aesthetic precision.",
+    description:
+      "Building scalable web applications where clean code drives efficiency.",
     images: ["/og-image.jpg"],
     creator: "@alwanjauza",
   },
