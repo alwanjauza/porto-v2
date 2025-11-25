@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "../styles/globals.css";
+import { Cursor } from "@/components/cursor";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -126,7 +127,7 @@ export default function RootLayout({
             }),
           }}
         />
-
+        <Cursor />
         {children}
         <Analytics />
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ""} />

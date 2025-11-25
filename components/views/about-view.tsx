@@ -9,7 +9,7 @@ import Image from "next/image";
 const experiences = [
   {
     id: 1,
-    year: "Nov 2024 — Present",
+    year: "Nov 2024 — Nov 2025",
     company: "PT. Maleo Teknologi Indonesia",
     role: "Full Stack Developer",
     description:
