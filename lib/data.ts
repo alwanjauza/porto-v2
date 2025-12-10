@@ -36,7 +36,7 @@ export const projects = [
     client: "Bistem",
     role: "Fullstack Developer",
     stack: "Next.js, Tailwind CSS, Django, PostgreSQL",
-    live: "https://bismart.co.id/",
+    live: "https://bismart.bistem.co.id/",
     challenge:
       "The project involved dealing with highly complex calculation models for candidate scoring and budget forecasting. Previous manual methods (spreadsheets) were prone to human error and could not handle the dynamic variables required for multi-tiered recruitment scenarios.",
     solution:
