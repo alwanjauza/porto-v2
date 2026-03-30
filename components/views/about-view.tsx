@@ -5,76 +5,7 @@ import { Contact } from "@/components/contact";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
-
-const experiences = [
-  {
-    id: 1,
-    year: "Nov 2024 — Nov 2025",
-    company: "PT. Maleo Teknologi Indonesia",
-    role: "Full Stack Developer",
-    description:
-      "Responsible for developing enterprise web applications from scratch. Collaborating closely with the team to translate complex business requirements into functional features using Next.js and Django. Actively involved in solving technical challenges and ensuring system stability.",
-    stack: ["Next.js", "Django", "PostgreSQL", "Tailwind CSS"],
-    images: [
-      "/moments/fulltime/fulltime-1.png",
-      "/moments/fulltime/fulltime-2.jpeg",
-      "/moments/fulltime/fulltime-3.jpeg",
-      "/moments/fulltime/fulltime-4.jpeg",
-    ],
-  },
-  {
-    id: 2,
-    year: "Jan 2024 — Nov 2024",
-    company: "Freelance",
-    role: "Full Stack Developer",
-    description:
-      "Delivered end-to-end web solutions for diverse clients independently. Specialized in translating client requirements into robust applications. Managed timeline estimation and full-stack implementation, reinforcing self-management and problem-solving skills.",
-    stack: ["React", "Node.js", "Tailwind CSS", "MongoDB"],
-    images: [],
-  },
-  {
-    id: 3,
-    year: "Aug 2023 — Dec 2023",
-    company: "PT. Maleo Teknologi Indonesia",
-    role: "Full Stack Developer Intern",
-    description:
-      "Contributed to critical web applications in a cross-functional agile environment. Engineered robust RESTful APIs and seamless frontend interfaces using Next.js and MongoDB. Collaborated closely with senior developers to optimize application performance.",
-    stack: ["Next.js", "MongoDB", "Express", "Vercel"],
-    images: [
-      "/moments/intern/intern-1.JPG",
-      "/moments/intern/intern-6.jpeg",
-      "/moments/intern/intern-2.jpg",
-      "/moments/intern/intern-3.JPG",
-      "/moments/intern/intern-4.JPG",
-      "/moments/intern/intern-5.jpg",
-    ],
-  },
-  {
-    id: 4,
-    year: "Jun 2023 — Aug 2023",
-    company: "East Java Manpower Dept.",
-    role: "Software Engineer Intern",
-    description:
-      "Spearheaded the digitalization of internal employee management through 'SIKANGEN'. Architected the backend using CodeIgniter 4 and MySQL, significantly improving administrative efficiency and data accuracy for the government department.",
-    stack: ["CodeIgniter 4", "MySQL", "Bootstrap", "PHP"],
-    images: [],
-  },
-  {
-    id: 5,
-    year: "Feb 2023 — Jun 2023",
-    company: "Alterra Academy",
-    role: "Front-End Engineering Mentee",
-    description:
-      "Completed an intensive engineering bootcamp focused on the React ecosystem. Mastered component-based architecture, state management, and collaborative workflows using Git, setting a strong foundation for professional development.",
-    stack: ["React.js", "Redux", "Git", "REST API", "GraphQL"],
-    images: [
-      "/moments/alta/alta-1.jpg",
-      "/moments/alta/alta-2.png",
-      "/moments/alta/alta-3.png",
-      "/moments/alta/alta-4.png",
-    ],
-  },
-];
+import { experiences } from "@/lib/data";
 
 export default function AboutView() {
   const containerRef = useRef(null);
