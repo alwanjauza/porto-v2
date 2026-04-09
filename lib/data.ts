@@ -100,7 +100,7 @@ export const experiences = [
   {
     id: 1,
     year: "Mar 2026 — Present",
-    company: "PT. Kitameraki",
+    company: "PT. KMS Konsultasi Solusi",
     role: "Full Stack Developer",
     description:
       "Contributing to the development of a cutting-edge SaaS platform for. Collaborating with cross-functional teams to implement new features and optimize existing ones using Next.js and Azure Cosmos DB. Gaining hands-on experience in cloud-based application development and deployment.",
