@@ -44,11 +44,12 @@ export function Hero() {
               >
                 <Image
                   src='/hero/hero-image.png'
-                  alt='Portrait'
+                  alt='Portrait of Alwan Jauza Rosyad'
                   fill
-                  sizes='(max-width: 768px) 50vw, 400px'
+                  sizes='(max-width: 768px) 50vw, (max-width: 1200px) 400px, 500px'
                   className='object-cover transition-transform duration-1000 grayscale-100 md:group-hover:grayscale-0'
                   priority
+                  fetchPriority="high"
                 />
                 <GrainTexture opacity={0.04} className="mix-blend-overlay rounded-[2rem]" />
               </div>
