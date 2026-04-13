@@ -12,6 +12,7 @@ import {
 import { useRef } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { GrainTexture } from "@/components/ui/grain";
 
 const wrap = (min: number, max: number, v: number) => {
   const rangeSize = max - min;
@@ -195,6 +196,8 @@ export function About() {
           </div>
         </div>
       </div>
+
+      <GrainTexture opacity={0.02} className="mix-blend-multiply" />
 
       <div className='flex flex-col gap-2 md:gap-4 opacity-80'>
         <ParallaxText

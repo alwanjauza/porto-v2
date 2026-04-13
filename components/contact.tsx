@@ -2,12 +2,13 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Instagram, Linkedin, Github } from "lucide-react";
+import { GrainTexture } from "@/components/ui/grain";
 
 export function Contact() {
   return (
     <section
       id='contact'
-      className='py-24 px-6 md:px-12 max-w-[1800px] mx-auto'
+      className='relative py-24 px-6 md:px-12 max-w-[1800px] mx-auto'
     >
       <div className='flex flex-col md:flex-row justify-between items-start md:items-end gap-12'>
         <div className='max-w-2xl'>
@@ -77,6 +78,8 @@ export function Contact() {
 
         <p className='opacity-50'>Surabaya, Indonesia</p>
       </div>
+
+      <GrainTexture opacity={0.015} className="mix-blend-multiply" />
     </section>
   );
 }

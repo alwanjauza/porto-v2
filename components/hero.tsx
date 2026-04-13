@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import Image from "next/image";
+import { GrainTexture } from "@/components/ui/grain";
 
 export function Hero() {
   const fadeUp = {
@@ -49,7 +50,7 @@ export function Hero() {
                   className='object-cover transition-transform duration-1000 grayscale-100 md:group-hover:grayscale-0'
                   priority
                 />
-                <div className="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-overlay bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"></div>
+                <GrainTexture opacity={0.04} className="mix-blend-overlay rounded-[2rem]" />
               </div>
             </div>
           </motion.div>
@@ -126,6 +127,8 @@ export function Hero() {
           </div>
         </div>
       </div>
+
+      <GrainTexture opacity={0.02} className="mix-blend-multiply" />
 
       <motion.div
         initial={{ opacity: 0 }}

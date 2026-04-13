@@ -3,6 +3,7 @@
 import { useScroll, useTransform, motion, MotionValue } from "framer-motion";
 import { useRef } from "react";
 import { Mouse, ArrowDown } from "lucide-react";
+import { GrainTexture } from "@/components/ui/grain";
 
 interface QuoteProps {
   text?: string;
@@ -60,6 +61,8 @@ export function Quote({
 
           <ArrowDown className='w-4 h-4 text-[#323131]/40' />
         </motion.div>
+
+        <GrainTexture opacity={0.015} className="mix-blend-multiply" />
       </div>
     </section>
   );
